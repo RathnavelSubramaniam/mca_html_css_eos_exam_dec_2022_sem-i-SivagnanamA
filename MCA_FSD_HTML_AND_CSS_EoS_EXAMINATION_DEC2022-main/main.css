@@ -1,0 +1,138 @@
+header{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(to right, #fdfc47, #24fe41);;
+    text-shadow: 10px;
+    
+}
+main{
+    background-color: #a8ff78;
+}
+header img{
+    float: left;
+    margin-top: -3.5%;
+}
+h1{
+    color: brown;
+}
+h2::first-letter{
+    color: red;
+}
+header p{
+    color: blue;
+    height: 4%;
+    width: 4%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background:antiquewhite;
+}
+nav ul {
+text-decoration: none;
+color: aliceblue;
+height: 30px;
+font-size: larger;
+}
+nav ul li{
+    display: inline;
+    margin: 30px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a{
+    cursor: pointer;
+    color: black;
+    width: 40px;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    color: #24fe41;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+
+.rawp{
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 300px;
+    width: 650px;
+    display: flex;
+    background:linear-gradient(to top,rgb(255,45,45) 50%,white 50%);
+    margin-left: 38%;
+    margin-top: -20%;
+    transition: 2s;
+    font-size: larger;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    background-size: 300px 650px;
+    transition:all 0.5s;
+    border: 1px solid black;
+
+}
+
+#lion1{
+    transition:  0.5s;
+}
+#lion1:hover{
+    transform: rotate(360deg);
+
+}
+
+.rawp:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+}
+
+.rawp p{
+    color: blue;
+    text-align: center;
+    justify-content: center;
+    margin: 45px;
+}
+.rawp p:hover{
+    color:whitesmoke ;
+}
+ img:hover{
+ transition: width 2s;
+}
+aside {
+float: right;
+margin-top: -95%;
+margin-right: -5px;
+background-color: aquamarine;
+height: 750px;
+}
+aside ul li{
+    margin: 40px;
+    list-style: none;
+    
+}
+aside ul li :hover{
+    color: black;
+}
+h2,h3,h4,h5,h6{
+font-size: larger;
+}
+footer{
+    background:linear-gradient(to right, #fdfc47, #24fe41);
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+
+}
+footer p{
+    font-size: larger;
+}
+
+
+
